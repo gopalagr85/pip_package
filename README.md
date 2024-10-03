@@ -34,3 +34,10 @@ If you have pushed your code to a git hosting service, you should be able to ins
 pip install git+https://github.com/gopalagr85/pip_package.git#egg=custom_pip_package
 ```
 
+after installing the `custom_pip_package`
+
+```python
+from custom_pip_package.my_pip_package import hello_world
+hello_world()
+This is my first pip package!
+```
